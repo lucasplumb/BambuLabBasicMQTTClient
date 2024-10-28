@@ -1,0 +1,234 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "MQTTnet/4.3.7.1207": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/MQTTnet.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/MQTTnet.dll": {}
+        }
+      },
+      "MQTTnet.Extensions.TopicTemplate/4.3.7.1207": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.3.7.1207",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net5.0/MQTTnet.Extensions.TopicTemplate.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/MQTTnet.Extensions.TopicTemplate.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MQTTnet/4.3.7.1207": {
+      "sha512": "ah7aHXoedWp5m5a4zy2u4phOEVj0QFYzOb5tFKQeV8RRBrxp+1QREF4ymZuG8D+hzB2dhtrrG81WxTFv0PzOeQ==",
+      "type": "package",
+      "path": "mqttnet/4.3.7.1207",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/MQTTnet.dll",
+        "lib/net452/MQTTnet.xml",
+        "lib/net461/MQTTnet.dll",
+        "lib/net461/MQTTnet.xml",
+        "lib/net48/MQTTnet.dll",
+        "lib/net48/MQTTnet.xml",
+        "lib/net5.0/MQTTnet.dll",
+        "lib/net5.0/MQTTnet.xml",
+        "lib/net6.0/MQTTnet.dll",
+        "lib/net6.0/MQTTnet.xml",
+        "lib/net7.0/MQTTnet.dll",
+        "lib/net7.0/MQTTnet.xml",
+        "lib/netcoreapp3.1/MQTTnet.dll",
+        "lib/netcoreapp3.1/MQTTnet.xml",
+        "lib/netstandard1.3/MQTTnet.dll",
+        "lib/netstandard1.3/MQTTnet.xml",
+        "lib/netstandard2.0/MQTTnet.dll",
+        "lib/netstandard2.0/MQTTnet.xml",
+        "lib/netstandard2.1/MQTTnet.dll",
+        "lib/netstandard2.1/MQTTnet.xml",
+        "lib/uap10.0.10240/MQTTnet.dll",
+        "lib/uap10.0.10240/MQTTnet.pri",
+        "lib/uap10.0.10240/MQTTnet.xml",
+        "mqttnet.4.3.7.1207.nupkg.sha512",
+        "mqttnet.nuspec",
+        "nuget.png"
+      ]
+    },
+    "MQTTnet.Extensions.TopicTemplate/4.3.7.1207": {
+      "sha512": "Lqds+0jAfrfYKY/xNokk1THg9XS6C86bzYrmVjhsnHNge/Y427bYL95UM4gdvgxqHKQBVoLsWMJQ0QnfeVEcrg==",
+      "type": "package",
+      "path": "mqttnet.extensions.topictemplate/4.3.7.1207",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net452/MQTTnet.Extensions.TopicTemplate.dll",
+        "lib/net452/MQTTnet.Extensions.TopicTemplate.xml",
+        "lib/net461/MQTTnet.Extensions.TopicTemplate.dll",
+        "lib/net461/MQTTnet.Extensions.TopicTemplate.xml",
+        "lib/net48/MQTTnet.Extensions.TopicTemplate.dll",
+        "lib/net48/MQTTnet.Extensions.TopicTemplate.xml",
+        "lib/net5.0/MQTTnet.Extensions.TopicTemplate.dll",
+        "lib/net5.0/MQTTnet.Extensions.TopicTemplate.xml",
+        "lib/net6.0/MQTTnet.Extensions.TopicTemplate.dll",
+        "lib/net6.0/MQTTnet.Extensions.TopicTemplate.xml",
+        "lib/net7.0/MQTTnet.Extensions.TopicTemplate.dll",
+        "lib/net7.0/MQTTnet.Extensions.TopicTemplate.xml",
+        "lib/netcoreapp3.1/MQTTnet.Extensions.TopicTemplate.dll",
+        "lib/netcoreapp3.1/MQTTnet.Extensions.TopicTemplate.xml",
+        "lib/netstandard1.3/MQTTnet.Extensions.TopicTemplate.dll",
+        "lib/netstandard1.3/MQTTnet.Extensions.TopicTemplate.xml",
+        "lib/netstandard2.0/MQTTnet.Extensions.TopicTemplate.dll",
+        "lib/netstandard2.0/MQTTnet.Extensions.TopicTemplate.xml",
+        "lib/netstandard2.1/MQTTnet.Extensions.TopicTemplate.dll",
+        "lib/netstandard2.1/MQTTnet.Extensions.TopicTemplate.xml",
+        "lib/uap10.0.10240/MQTTnet.Extensions.TopicTemplate.dll",
+        "lib/uap10.0.10240/MQTTnet.Extensions.TopicTemplate.pri",
+        "lib/uap10.0.10240/MQTTnet.Extensions.TopicTemplate.xml",
+        "mqttnet.extensions.topictemplate.4.3.7.1207.nupkg.sha512",
+        "mqttnet.extensions.topictemplate.nuspec",
+        "nuget.png"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "MQTTnet >= 4.3.7.1207",
+      "MQTTnet.Extensions.TopicTemplate >= 4.3.7.1207"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Decepticon2\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Decepticon2\\source\\repos\\BambuLabBasicMQTTClient\\BambuLabBasicMQTTClient.csproj",
+      "projectName": "BambuLabBasicMQTTClient",
+      "projectPath": "C:\\Users\\Decepticon2\\source\\repos\\BambuLabBasicMQTTClient\\BambuLabBasicMQTTClient.csproj",
+      "packagesPath": "C:\\Users\\Decepticon2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Decepticon2\\source\\repos\\BambuLabBasicMQTTClient\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Decepticon2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "MQTTnet": {
+            "target": "Package",
+            "version": "[4.3.7.1207, )"
+          },
+          "MQTTnet.Extensions.TopicTemplate": {
+            "target": "Package",
+            "version": "[4.3.7.1207, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
